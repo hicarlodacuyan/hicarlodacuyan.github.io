@@ -1,6 +1,13 @@
+import { Nav, Hero, Projects, Contact } from "./components";
+
 const App = () => {
   return (
-    <h1 className="text-3xl text-slate-500 p-4 font-bold">Personal Website</h1>
+    <>
+      <Nav />
+      <Hero />
+      <Projects />
+      <Contact />
+    </>
   );
 };
 
