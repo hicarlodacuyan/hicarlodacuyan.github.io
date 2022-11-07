@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-bg {
+  background: linear-gradient(rgb(14 116 144) 25%, transparent 25%);
+}
