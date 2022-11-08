@@ -1,7 +1,6 @@
 import React from "react";
 import PlaceholderImg from "../assets/hero-image.png";
-import { FaGithub } from "react-icons/fa";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { VscGithub, VscLinkExternal } from "react-icons/vsc";
 
 const Project = () => {
   return (
@@ -19,10 +18,10 @@ const Project = () => {
           </ul>
           <div className="flex lg:gap-4 gap-2 text-gray-700">
             <a href="#">
-              <FaExternalLinkAlt size={20} />
+              <VscLinkExternal size={20} />
             </a>
             <a href="#">
-              <FaGithub size={20} />
+              <VscGithub size={20} />
             </a>
           </div>
         </div>

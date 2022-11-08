@@ -16,7 +16,7 @@ const Projects = () => {
             <Project />
             <Project />
           </div>
-          <h2 className="font-squada md:text-xl text-base text-gray-700 text-center md:my-12 my-8 underline underline-offset-8 decoration-orange-700 decoration-4">
+          <h2 className="font-squada md:text-xl text-base text-gray-700 text-center md:mt-12 mt-8 underline underline-offset-8 decoration-orange-700 decoration-4">
             View all projects
           </h2>
         </div>
