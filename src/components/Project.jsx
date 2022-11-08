@@ -6,8 +6,12 @@ const Project = ({ details }) => {
 
   return (
     <article className="rounded-lg overflow-hidden bg-white drop-shadow">
-      <div className="bg-gray-100 p-8">
-        <img className="bg-red-300 drop-shadow-lg" src={photoURL} />
+      <div className="bg-project p-8">
+        <div className="drop-shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-200 cursor-pointer">
+          <a href={live} target="_blank">
+            <img src={photoURL} />
+          </a>
+        </div>
       </div>
       <div className="p-8 flex flex-col gap-4">
         <h4 className="font-squada text-2xl text-gray-700">{name}</h4>

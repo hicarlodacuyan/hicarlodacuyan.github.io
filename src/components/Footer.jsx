@@ -11,17 +11,26 @@ const Footer = () => {
         <div>
           <ul className="flex gap-4">
             <li className="text-blue-600">
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/hicarlodacuyan/"
+                target="_blank"
+              >
                 <FaLinkedin size={32} />
               </a>
             </li>
             <li className="text-pink-700">
-              <a href="#">
+              <a
+                href="https://www.instagram.com/hi.carlodacuyan/"
+                target="_blank"
+              >
                 <FaInstagram size={32} />
               </a>
             </li>
             <li className="text-blue-700">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/hi.carlodacuyan"
+                target="_blank"
+              >
                 <FaFacebook size={32} />
               </a>
             </li>

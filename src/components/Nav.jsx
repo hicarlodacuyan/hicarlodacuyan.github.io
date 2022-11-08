@@ -48,7 +48,7 @@ const Nav = () => {
           <ul className="flex flex-col p-4 mt-4 rounded-lg border border-gray-200 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold md:border-0">
             <li>
               <a
-                href="#"
+                href="#hero"
                 className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"
               >
                 About
@@ -56,7 +56,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#projects"
                 className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"
               >
                 Projects
@@ -64,7 +64,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"
               >
                 Contact

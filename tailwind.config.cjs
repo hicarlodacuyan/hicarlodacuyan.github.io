@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         squada: ['"Squada One"', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        project: "url('/src/assets/project-bg.jpg')",
+      },
     },
   },
   plugins: [],

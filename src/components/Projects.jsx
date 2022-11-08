@@ -3,7 +3,7 @@ import projects from "../utils/ProjectDetails";
 
 const Projects = () => {
   return (
-    <main className="px-2 sm:px-4 py-2.5">
+    <main id="projects" className="px-2 sm:px-4 py-2.5">
       <div className="container mx-auto main-bg rounded-xl">
         <div className="md:p-8 2xl:px-24 p-4">
           <h1 className="text-lg text-white font-bold text-center uppercase md:mb-8 mb-4">

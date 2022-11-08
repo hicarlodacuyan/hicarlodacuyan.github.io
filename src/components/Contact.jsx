@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <form className="px-2 sm:px-4 py-2.5">
+    <form id="contact" className="px-2 sm:px-4 py-2.5">
       <div className="flex flex-col gap-4 container mx-auto rounded-lg bg-cyan-700 p-4 md:py-8 md:px-12">
         <h1 className="text-lg text-white font-bold uppercase">
           Interested? Contact me.
