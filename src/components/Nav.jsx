@@ -45,7 +45,7 @@ const Nav = () => {
           className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
           id="navbar-cta"
         >
-          <ul className="flex flex-col p-4 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold md:border-0">
+          <ul className="flex flex-col p-4 mt-4 rounded-lg border border-gray-200 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold md:border-0">
             <li>
               <a
                 href="#"
