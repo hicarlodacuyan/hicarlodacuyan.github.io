@@ -8,11 +8,11 @@ const Contact = () => {
         <div className="flex md:flex-row flex-col gap-4">
           <div className="flex-1 flex flex-col gap-1">
             <p className="text-slate-200 text-xs">Name</p>
-            <input type="text" className="rounded h-8 p-2" />
+            <input type="text" className="rounded h-10 p-2" />
             <p className="text-slate-200 text-xs">Phone Number</p>
-            <input type="number" className="rounded h-8 p-2" />
+            <input type="number" className="rounded h-10 p-2" />
             <p className="text-slate-200 text-xs">Email</p>
-            <input type="email" className="rounded h-8 p-2" />
+            <input type="email" className="rounded h-10 p-2" />
           </div>
           <div className="flex-1 flex flex-col gap-1">
             <p className="text-slate-200 text-xs">Message</p>

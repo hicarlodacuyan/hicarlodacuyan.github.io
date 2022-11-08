@@ -15,7 +15,9 @@ const Projects = () => {
             ))}
           </div>
           <h2 className="font-squada md:text-xl text-base text-gray-700 text-center md:mt-12 mt-8 underline underline-offset-8 decoration-orange-700 decoration-4">
-            View all projects
+            <a href="https://github.com/hicarlodacuyan" target="_blank">
+              View all projects
+            </a>
           </h2>
         </div>
       </div>

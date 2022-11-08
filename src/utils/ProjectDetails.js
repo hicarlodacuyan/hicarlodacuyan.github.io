@@ -10,7 +10,7 @@ const projects = [
     id: 1,
     name: "Entertainment Webapp",
     description:
-      "A full stack movie app for that would allow users to browse and search for movies and tv shows, as well as save their favorites. The app would also provide users with movie recommendations based on what is trending worldwide.",
+      "A full stack movie app for that allow users to browse and search for movies and tv shows, as well as save their favorites if they are logged-in. The app also provide users with movie recommendations based on what is trending and popular worldwide.",
     photoURL: EntertainmentWebApp,
     techStack: [
       { name: "React", color: "#61DBFB" },
