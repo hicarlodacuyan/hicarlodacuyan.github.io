@@ -1,4 +1,5 @@
 import Project from "./Project";
+import projects from "../utils/ProjectDetails";
 
 const Projects = () => {
   return (
@@ -9,12 +10,9 @@ const Projects = () => {
             My Projects
           </h1>
           <div className="grid xl:grid-cols-3 md:grid-cols-2 xl:gap-8 gap-4">
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
-            <Project />
+            {projects.map((project) => (
+              <Project key={project.id} details={project} />
+            ))}
           </div>
           <h2 className="font-squada md:text-xl text-base text-gray-700 text-center md:mt-12 mt-8 underline underline-offset-8 decoration-orange-700 decoration-4">
             View all projects
