@@ -10,7 +10,7 @@ const projects = [
     id: 1,
     name: "Entertainment Webapp",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A full stack movie app for that would allow users to browse and search for movies and tv shows, as well as save their favorites. The app would also provide users with movie recommendations based on what is trending worldwide.",
     photoURL: EntertainmentWebApp,
     techStack: [
       { name: "React", color: "#61DBFB" },
@@ -24,7 +24,7 @@ const projects = [
     id: 2,
     name: "Shopping Cart",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A simple shopping app with API fetching and add to cart page functionality. This app enables users to search and shop for products that they like. The add to cart page allows users to add items to their shopping cart and automatically compute the total.",
     photoURL: ShoppingCart,
     techStack: [
       { name: "React", color: "#61DBFB" },
@@ -38,7 +38,7 @@ const projects = [
     id: 3,
     name: "CV Project",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A resume builder app  that help users create a professional looking resume in minutes. The built-in template and design is minimalist, and you can simply input your details to automatically build your resume. Once you're done, you can print your resume directly from the app.",
     photoURL: CVBuilder,
     techStack: [
       { name: "React", color: "#61DBFB" },
@@ -51,7 +51,7 @@ const projects = [
     id: 4,
     name: "Battleship",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A battleship game with AI functionality. The app features a modern and simple design and utilizes Object Oriented Programming to build the logic. It was a good practice to strengthen my vanilla JavaScript knowledge.",
     photoURL: Battleship,
     techStack: [
       { name: "HTML", color: "#61DBFB" },
@@ -65,7 +65,7 @@ const projects = [
     id: 5,
     name: "Todo App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "This simple todo app has a modern looking design and helps you keep track of your personal tasks. You can add, edit and remove tasks, and mark them as complete. It utilizes your browser's local storage to save your tasks.",
     photoURL: TodoApp,
     techStack: [
       { name: "HTML", color: "#61DBFB" },
@@ -79,7 +79,7 @@ const projects = [
     id: 6,
     name: "Tic Tac Toe",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "My Tic Tac Toe project is a modern looking implementation of the classic game. It features a sleek and stylish design with a simple user interface. The game can be played against a computer or another player (WIP). It also keeps track of your win/loss record, so you can see how you're doing over time.",
     photoURL: TicTacToe,
     techStack: [
       { name: "HTML", color: "#61DBFB" },

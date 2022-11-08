@@ -12,8 +12,10 @@ const Hero = () => {
             Front-End Web Developer
           </h3>
           <p className="py-4 text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            An aspiring web developer who is passionate about building beautiful
+            and user-friendly websites. With a strong foundation in HTML, CSS
+            and JavaScript, he is always looking to improve his skills and learn
+            new technologies.
           </p>
           <button
             type="button"
