@@ -5,3 +5,27 @@
 .main-bg {
   background: linear-gradient(rgb(14 116 144) 25%, transparent 25%);
 }
+
+.navlink:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px rgb(194 65 12);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navlink:hover:after {
+  transform: scaleX(1);
+}
+
+.more-projects:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px rgb(194 65 12);
+  transform: scaleX(1);
+  transition: transform 250ms ease-in-out;
+}
+
+.more-projects:hover:after {
+  transform: scaleX(0);
+}

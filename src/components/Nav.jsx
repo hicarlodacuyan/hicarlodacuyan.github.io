@@ -13,7 +13,7 @@ const Nav = () => {
         <div className="flex md:order-2">
           <button
             type="button"
-            className="text-white font-bold uppercase bg-orange-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
+            className="text-white font-bold uppercase bg-orange-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 transition ease-in-out delay-150 hover:scale-110 duration-200"
           >
             Resume
           </button>
@@ -46,7 +46,7 @@ const Nav = () => {
           id="navbar-cta"
         >
           <ul className="flex flex-col p-4 mt-4 rounded-lg border border-gray-200 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold md:border-0">
-            <li>
+            <li className="navlink">
               <a
                 href="#hero"
                 className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"
@@ -54,7 +54,7 @@ const Nav = () => {
                 About
               </a>
             </li>
-            <li>
+            <li className="navlink">
               <a
                 href="#projects"
                 className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"
@@ -62,7 +62,7 @@ const Nav = () => {
                 Projects
               </a>
             </li>
-            <li>
+            <li className="navlink">
               <a
                 href="#contact"
                 className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"

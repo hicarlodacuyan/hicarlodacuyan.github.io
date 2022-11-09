@@ -10,7 +10,7 @@ const Footer = () => {
         </h1>
         <div>
           <ul className="flex gap-4">
-            <li className="text-blue-600">
+            <li className="text-blue-600 transition ease-in-out delay-150 hover:scale-110 duration-200">
               <a
                 href="https://www.linkedin.com/in/hicarlodacuyan/"
                 target="_blank"
@@ -18,7 +18,7 @@ const Footer = () => {
                 <FaLinkedin size={32} />
               </a>
             </li>
-            <li className="text-pink-700">
+            <li className="text-pink-700 transition ease-in-out delay-150 hover:scale-110 duration-200">
               <a
                 href="https://www.instagram.com/hi.carlodacuyan/"
                 target="_blank"
@@ -26,7 +26,7 @@ const Footer = () => {
                 <FaInstagram size={32} />
               </a>
             </li>
-            <li className="text-blue-700">
+            <li className="text-blue-700 transition ease-in-out delay-150 hover:scale-110 duration-200">
               <a
                 href="https://www.facebook.com/hi.carlodacuyan"
                 target="_blank"
