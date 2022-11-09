@@ -1,6 +1,43 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
+  const form = useRef();
+  const nameRef = useRef(null);
+  const phoneRef = useRef(null);
+  const emailRef = useRef(null);
+  const messageRef = useRef(null);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_gjd8sqw",
+        "template_cla19p3",
+        form.current,
+        "AnRn0fTJZdDQUAPjS"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Message Sent");
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          console.log("Message failed to send");
+        }
+      );
+  };
+
   return (
-    <form id="contact" className="px-2 sm:px-4 py-2.5">
+    <form
+      ref={form}
+      onSubmit={sendEmail}
+      id="contact"
+      className="px-2 sm:px-4 py-2.5"
+    >
       <div className="flex flex-col gap-4 container mx-auto rounded-lg bg-cyan-700 p-4 md:py-8 md:px-12">
         <h1 className="text-lg text-white font-bold uppercase">
           Interested? Contact me.
@@ -8,17 +45,38 @@ const Contact = () => {
         <div className="flex md:flex-row flex-col gap-4">
           <div className="flex-1 flex flex-col gap-1">
             <p className="text-slate-200 text-xs">Name</p>
-            <input type="text" className="rounded h-10 p-2" />
+            <input
+              ref={nameRef}
+              name="user_name"
+              type="text"
+              className="rounded h-10 p-2"
+              required
+            />
             <p className="text-slate-200 text-xs">Phone Number</p>
-            <input type="number" className="rounded h-10 p-2" />
+            <input
+              ref={phoneRef}
+              name="user_phone"
+              type="number"
+              className="rounded h-10 p-2"
+              required
+            />
             <p className="text-slate-200 text-xs">Email</p>
-            <input type="email" className="rounded h-10 p-2" />
+            <input
+              ref={emailRef}
+              name="user_email"
+              type="email"
+              className="rounded h-10 p-2"
+              required
+            />
           </div>
           <div className="flex-1 flex flex-col gap-1">
             <p className="text-slate-200 text-xs">Message</p>
             <textarea
+              ref={messageRef}
+              name="message"
               type="text"
               className="md:flex-1 md:h-auto h-32 rounded p-2"
+              required
             ></textarea>
           </div>
         </div>
