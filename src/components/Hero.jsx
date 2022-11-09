@@ -17,12 +17,12 @@ const Hero = () => {
             and JavaScript, he is always looking to improve his skills and learn
             new technologies.
           </p>
-          <a href="#projects">
+          <a href="#contact">
             <button
               type="button"
               className="text-white font-bold uppercase bg-orange-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center self-start transition ease-in-out delay-150 hover:scale-110 duration-200"
             >
-              Projects
+              Hire me
             </button>
           </a>
         </div>
