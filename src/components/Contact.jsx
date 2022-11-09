@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
@@ -22,6 +23,15 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("Message Sent");
+          toast.success(`Your message has been sent!`, {
+            position: "top-center",
+            autoClose: 1000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
           e.target.reset();
         },
         (error) => {
