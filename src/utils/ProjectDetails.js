@@ -29,7 +29,7 @@ const projects = [
     techStack: [
       { name: "React", color: "#61DBFB" },
       { name: "Tailwind", color: "#EC4899" },
-      { name: "API", color: "#374151" },
+      { name: "API", color: "#84cc16" },
     ],
     repo: "https://github.com/hicarlodacuyan/shopping-cart",
     live: "https://hicarlodacuyan.github.io/shopping-cart/",

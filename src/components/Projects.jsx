@@ -14,7 +14,7 @@ const Projects = () => {
               <Project key={project.id} details={project} />
             ))}
           </div>
-          <h2 className="font-squada md:text-xl text-base text-gray-700 md:mt-12 mt-8 more-projects">
+          <h2 className="font-squada md:text-xl text-base text-gray-700 dark:text-white md:mt-12 mt-8 more-projects">
             <a href="https://github.com/hicarlodacuyan" target="_blank">
               View all projects
             </a>

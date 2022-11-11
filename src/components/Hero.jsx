@@ -8,10 +8,10 @@ const Hero = () => {
           <h2 className="font-squada text-5xl xl:text-8xl 2xl:text-9xl text-cyan-700 uppercase mt-4 md:mt-0">
             Carlo Dacuyan
           </h2>
-          <h3 className="text-2xl xl:text-5xl 2xl:text-6xl text-gray-700 font-bold">
+          <h3 className="text-2xl xl:text-5xl 2xl:text-6xl text-gray-700 dark:text-white font-bold">
             Front-End Web Developer
           </h3>
-          <p className="py-4 text-gray-700">
+          <p className="py-4 text-gray-700 dark:text-gray-100">
             A front-end web developer who is passionate about building beautiful
             and user-friendly websites. With a strong foundation in HTML, CSS
             and JavaScript, he is always looking to improve his skills and learn

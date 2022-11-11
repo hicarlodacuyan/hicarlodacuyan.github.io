@@ -59,7 +59,7 @@ const Contact = () => {
               ref={nameRef}
               name="user_name"
               type="text"
-              className="rounded h-10 p-2"
+              className="rounded h-10 p-2 focus:outline-cyan-700"
               required
             />
             <p className="text-slate-200 text-xs">Phone Number</p>
@@ -67,7 +67,7 @@ const Contact = () => {
               ref={phoneRef}
               name="user_phone"
               type="number"
-              className="rounded h-10 p-2"
+              className="rounded h-10 p-2 focus:outline-cyan-700"
               required
             />
             <p className="text-slate-200 text-xs">Email</p>
@@ -75,7 +75,7 @@ const Contact = () => {
               ref={emailRef}
               name="user_email"
               type="email"
-              className="rounded h-10 p-2"
+              className="rounded h-10 p-2 focus:outline-cyan-700"
               required
             />
           </div>
@@ -85,7 +85,7 @@ const Contact = () => {
               ref={messageRef}
               name="message"
               type="text"
-              className="md:flex-1 md:h-auto h-32 rounded p-2"
+              className="md:flex-1 md:h-auto h-32 rounded p-2 focus:outline-cyan-700"
               required
             ></textarea>
           </div>

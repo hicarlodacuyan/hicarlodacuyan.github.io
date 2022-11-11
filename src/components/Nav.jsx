@@ -1,8 +1,15 @@
-import { useRef } from "react";
+import { useRef, useContext } from "react";
+import { ThemeContext } from "../ThemeContext";
+import { HiOutlineSun, HiSun } from "react-icons/hi";
 
 const Nav = () => {
   const mobileNavRef = useRef();
   const showMobileNav = () => mobileNavRef.current.classList.toggle("hidden");
+  const { theme, setTheme } = useContext(ThemeContext);
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+  };
 
   return (
     <nav className="border-gray-200 border-b-2 px-2 sm:px-4 py-2.5">
@@ -10,7 +17,10 @@ const Nav = () => {
         <h1 className="self-center text-3xl text-orange-700 font-black whitespace-nowrap">
           cd.
         </h1>
-        <div className="flex md:order-2">
+        <div className="flex md:order-2 gap-4">
+          <button onClick={toggleTheme}>
+            {theme === "light" ? <HiSun size={32} /> : <HiOutlineSun size={32} color="white" />}
+          </button>
           <a
             href="https://drive.google.com/file/d/1C3Y9MOs-hkiYxzLI4FBkv7TGjpzLJB9E/view?usp=sharing"
             target="_blank"
@@ -54,7 +64,7 @@ const Nav = () => {
             <li className="navlink">
               <a
                 href="#hero"
-                className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"
+                className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 dark:text-gray-100 rounded md:p-0"
               >
                 About
               </a>
@@ -62,7 +72,7 @@ const Nav = () => {
             <li className="navlink">
               <a
                 href="#projects"
-                className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"
+                className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 dark:text-gray-100 rounded md:p-0"
               >
                 Projects
               </a>
@@ -70,7 +80,7 @@ const Nav = () => {
             <li className="navlink">
               <a
                 href="#contact"
-                className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 rounded md:p-0"
+                className="block py-2 pr-4 pl-3 uppercase font-bold text-gray-700 dark:text-gray-100 rounded md:p-0"
               >
                 Contact
               </a>
