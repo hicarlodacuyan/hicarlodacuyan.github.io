@@ -12,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="border-gray-200 border-b-2 px-2 sm:px-4 py-2.5">
+    <nav className="border-gray-200 dark:border-gray-700 border-b-2 px-2 sm:px-4 py-2.5">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <h1 className="self-center text-3xl text-orange-700 font-black whitespace-nowrap">
           cd.
