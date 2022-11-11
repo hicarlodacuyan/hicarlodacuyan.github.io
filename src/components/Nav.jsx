@@ -17,8 +17,8 @@ const Nav = () => {
         <h1 className="self-center text-3xl text-orange-700 font-black whitespace-nowrap">
           cd.
         </h1>
-        <div className="flex md:order-2 gap-4">
-          <button onClick={toggleTheme}>
+        <div className="flex md:order-2">
+          <button onClick={toggleTheme} className="mr-4">
             {theme === "light" ? <HiSun size={32} /> : <HiOutlineSun size={32} color="white" />}
           </button>
           <a
