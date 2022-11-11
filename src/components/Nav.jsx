@@ -1,6 +1,6 @@
 import { useRef, useContext } from "react";
 import { ThemeContext } from "../ThemeContext";
-import { HiOutlineSun, HiSun } from "react-icons/hi";
+import { HiOutlineSun, HiSun, HiMenu } from "react-icons/hi";
 
 const Nav = () => {
   const mobileNavRef = useRef();
@@ -17,7 +17,7 @@ const Nav = () => {
         <h1 className="self-center text-3xl text-orange-700 font-black whitespace-nowrap">
           cd.
         </h1>
-        <div className="flex md:order-2">
+        <div className="flex items-center md:order-2">
           <button onClick={toggleTheme} className="mr-4">
             {theme === "light" ? <HiSun size={32} /> : <HiOutlineSun size={32} color="white" />}
           </button>
@@ -35,24 +35,12 @@ const Nav = () => {
           <button
             onClick={showMobileNav}
             type="button"
-            className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden outline-none ring-2 ring-gray-300"
             aria-controls="navbar-cta"
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-6 h-6"
-              aria-hidden="true"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
+            <HiMenu size={20} color={`${theme === "light" ? "black" : "white"}`} />
           </button>
         </div>
         <div
