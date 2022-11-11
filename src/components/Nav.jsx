@@ -12,7 +12,7 @@ const Nav = () => {
         </h1>
         <div className="flex md:order-2">
           <a
-            href="https://drive.google.com/file/d/12XWt-n5rdolWDYsGzPKb90gJOt8l5bUz/view?usp=sharing"
+            href="https://drive.google.com/file/d/1C3Y9MOs-hkiYxzLI4FBkv7TGjpzLJB9E/view?usp=sharing"
             target="_blank"
           >
             <button
