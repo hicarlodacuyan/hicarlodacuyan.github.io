@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
 .main-bg {
   background: linear-gradient(rgb(14 116 144) 25%, transparent 25%);
 }
