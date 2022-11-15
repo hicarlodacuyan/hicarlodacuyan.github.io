@@ -3,6 +3,7 @@ import { ThemeContext } from "./ThemeContext";
 import { Nav, Hero, Projects, Contact, Footer } from "./components";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Skills from "./components/Skills";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
@@ -13,6 +14,7 @@ const App = () => {
         <div className="bg-gray-50 dark:bg-gray-800">
           <Nav />
           <Hero />
+          <Skills />
           <Projects />
           <Contact />
           <Footer />
