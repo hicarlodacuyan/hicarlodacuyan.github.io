@@ -1,4 +1,4 @@
-import EntertainmentWebApp from "../assets/entertainment-webapp.png";
+import EntertainmentWebApp from "../assets/entertainment-webapp.jpg";
 import ShoppingCart from "../assets/shopping-cart.jpg";
 import CVBuilder from "../assets/cv-builder.jpg";
 import Battleship from "../assets/battleship.jpg";
