@@ -1,6 +1,6 @@
 import { useRef, useContext } from "react";
 import { ThemeContext } from "../ThemeContext";
-import { HiOutlineSun, HiSun, HiMenu } from "react-icons/hi";
+import { HiOutlineSun, HiMoon, HiMenu } from "react-icons/hi";
 
 const Nav = () => {
   const mobileNavRef = useRef();
@@ -19,7 +19,15 @@ const Nav = () => {
         </h1>
         <div className="flex items-center md:order-2">
           <button onClick={toggleTheme} className="mr-4">
-            {theme === "light" ? <HiSun size={32} /> : <HiOutlineSun size={32} color="white" />}
+            {theme === "light" ? (
+              <span className="text-gray-700">
+                <HiMoon size={32} />
+              </span>
+            ) : (
+              <span className="text-white">
+                <HiOutlineSun size={32} />
+              </span>
+            )}
           </button>
           <a
             href="https://drive.google.com/file/d/1C3Y9MOs-hkiYxzLI4FBkv7TGjpzLJB9E/view?usp=sharing"
@@ -40,7 +48,10 @@ const Nav = () => {
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
-            <HiMenu size={20} color={`${theme === "light" ? "black" : "white"}`} />
+            <HiMenu
+              size={20}
+              color={`${theme === "light" ? "black" : "white"}`}
+            />
           </button>
         </div>
         <div
