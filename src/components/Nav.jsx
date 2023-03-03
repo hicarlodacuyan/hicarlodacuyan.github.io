@@ -30,7 +30,7 @@ const Nav = () => {
             )}
           </button>
           <a
-            href="https://drive.google.com/file/d/14TVELS2zLf1U72dAgcmp29fHdDUYq-pK/view"
+            href="https://drive.google.com/file/d/1ZhhsJF26TAjOXVsWhFMJjhjy440-MyKE/view?usp=sharing"
             target="_blank"
           >
             <button
