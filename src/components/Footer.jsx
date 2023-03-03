@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,6 +10,11 @@ const Footer = () => {
         </h1>
         <div>
           <ul className="flex gap-4">
+            <li className="text-gray-700 dark:text-gray-300 transition ease-in-out delay-150 hover:scale-110 duration-200">
+              <a href="https://github.com/hicarlodacuyan" target="_blank">
+                <FaGithub size={32} />
+              </a>
+            </li>
             <li className="text-blue-600 transition ease-in-out delay-150 hover:scale-110 duration-200">
               <a
                 href="https://www.linkedin.com/in/hicarlodacuyan/"
