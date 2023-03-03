@@ -9,13 +9,13 @@ const Hero = () => {
             Carlo Dacuyan
           </h2>
           <h3 className="text-2xl xl:text-5xl 2xl:text-6xl text-gray-700 dark:text-white font-bold">
-            Front-End Web Developer
+            Full-Stack Web Developer
           </h3>
           <p className="py-4 text-gray-700 dark:text-gray-100">
-            A front-end web developer who is passionate about building beautiful
-            and user-friendly websites. With a strong foundation in HTML, CSS
-            and JavaScript, he is always looking to improve his skills and learn
-            new technologies.
+            A full-stack web developer who is passionate about building
+            beautiful and user-friendly websites. With a strong foundation in
+            MERN stack, he is always looking to improve his skills and learn new
+            technologies.
           </p>
           <a href="#contact" className="self-start">
             <button
